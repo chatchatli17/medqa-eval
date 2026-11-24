@@ -1,0 +1,13 @@
+__pycache__/
+*.pyc
+.venv/
+.vscode/
+.DS_Store
+
+# 原始语料与模型原始输出（体积大/含来源限制，默认不入库）
+data/raw/*
+!data/raw/.gitkeep
+
+# 中间产物
+reports/*.tmp
+*.ipynb_checkpoints/
